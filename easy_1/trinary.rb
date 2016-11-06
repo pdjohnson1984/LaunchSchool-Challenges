@@ -1,6 +1,6 @@
-class Octal
-  BASE = 8
-  INVALID_OCTAL = /\D|[8-9]/
+class Trinary
+  BASE = 3
+  INVALID_OCTAL = /\D|[3-9]/
 
   attr_reader :num
 
